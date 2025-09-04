@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f8ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            width: 350px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #0077cc;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0077cc;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+            text-align: center;
+            display: none;
+            margin-bottom: 10px;
+        }
+
+        .success {
+            color: green;
+            font-size: 14px;
+            text-align: center;
+            display: none;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <div class="error" id="error"></div>
+        <div class="success" id="success"></div>
+
+        <form id="loginForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById("loginForm");
+        const errorBox = document.getElementById("error");
+        const successBox = document.getElementById("success");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const email = document.getElementById("email").value.trim();
+            const password = document.getElementById("password").value.trim();
+
+            // Check if the user is already registered
+            const storedEmail = localStorage.getItem("email");
+            const storedPassword = localStorage.getItem("password");
+
+            if (storedEmail && storedPassword) {
+                // Existing user → Validate credentials
+                if (email === storedEmail && password === storedPassword) {
+                    successBox.style.display = "block";
+                    successBox.innerText = "Login successful! Redirecting...";
+                    errorBox.style.display = "none";
+                    setTimeout(() => {
+                        window.location.href = "welcome.html";
+                    }, 1500);
+                } else {
+                    errorBox.style.display = "block";
+                    errorBox.innerText = "Invalid email or password!";
+                    successBox.style.display = "none";
+                }
+            } else {
+                // New user → Register automatically
+                localStorage.setItem("email", email);
+                localStorage.setItem("password", password);
+                successBox.style.display = "block";
+                successBox.innerText = "Logged In successfully! Redirecting...";
+                errorBox.style.display = "none";
+                setTimeout(() => {
+                    window.location.href = "welcome.html";
+                }, 1500);
+            }
+        });
+    </script>
+</body>
+</html>

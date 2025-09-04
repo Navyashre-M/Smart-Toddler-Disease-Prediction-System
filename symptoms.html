@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Symptoms</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 22px;
+        }
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .symptom-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        label {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            background: #f7faff;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        label:hover {
+            background: #e8f1ff;
+        }
+        input[type="checkbox"] {
+            margin-right: 8px;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            background-color: #0077cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <header>Select Symptoms</header>
+    <div class="container">
+        <h2>Choose Your Symptoms</h2>
+        <form id="symptomForm">
+            <div class="symptom-list" id="symptomContainer"></div>
+            <button type="submit">Get Solutions</button>
+        </form>
+    </div>
+
+    <script>
+        // 50+ symptoms list
+        const symptoms = [
+            "Cold","Headache","Sore Throat","Runny Nose","Sneezing","Fatigue","Body Pain","Nausea","Vomiting","Diarrhea",
+            "Constipation","Abdominal Pain","Skin Rashes","Itching","Eczema","Dry Skin","Red Patches","Hives","Eye Redness","Watery Eyes",
+            "Eye Discharge","Ear Pain","Ear Infection","Mouth Ulcers","Bad Breath","Chapped Lips","Breathing Difficulty","Chest Congestion","Allergic Reaction",
+            "Burning Urination","Frequent Urination","Jaundice","Fungal Infection","Insomnia",
+            ,"Pale Skin","Dehydration","Excessive Crying","Swelling","Fever","Cough","Blocked Nose"
+        ];
+
+        // Dynamically create checkboxes
+        const symptomContainer = document.getElementById("symptomContainer");
+        symptoms.forEach(symptom => {
+            const label = document.createElement("label");
+            label.innerHTML = `<input type="checkbox" value="${symptom}">${symptom}`;
+            symptomContainer.appendChild(label);
+        });
+
+        // On form submit, store selected symptoms & redirect
+        document.getElementById("symptomForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const selected = Array.from(document.querySelectorAll("input[type=checkbox]:checked")).map(cb => cb.value);
+
+            if (selected.length === 0) {
+                alert("Please select at least one symptom.");
+                return;
+            }
+
+            // Save to localStorage
+            localStorage.setItem("selectedSymptoms", JSON.stringify(selected));
+
+            // Redirect to solutions page
+            window.location.href = "solution.html";
+        });
+    </script>
+</body>
+</html>

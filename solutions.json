@@ -1,0 +1,363 @@
+{
+    "Fever": {
+        "scientific": "Paracetamol 500mg",
+        "ayurvedic": "Giloy juice",
+        "home": "Drink plenty of fluids and rest",
+        "syrup": "Dolo-650 Syrup",
+        "soap": "Mild Neem Soap",
+        "cream": "Aloe Vera Gel",
+        "doctor": "Dr. Arjun Rao",
+        "video": "https://youtu.be/Ify-iPTvxkw?si=tsNnC1B5prJW4msi"
+    },
+    "Cough": {
+        "scientific": "Ascoril-D Syrup",
+        "ayurvedic": "Tulsi + Honey Mix",
+        "home": "Ginger tea and steam inhalation",
+        "syrup": "Benadryl Cough Syrup",
+        "soap": "Medicated Dettol Soap",
+        "cream": "Vicks Balm",
+        "doctor": "Dr. Priya Menon",
+        "video": "https://youtu.be/SQwDkVfPvVE?si=evuQC8OYu_fEnfOH"
+    },
+  "Cold": {
+    "scientific": "Cetirizine 10mg",
+    "ayurvedic": "Ginger tea twice daily",
+    "home": "Steam inhalation with eucalyptus oil",
+    "doctor": "Dr. Ravi (ENT Specialist)",
+    "video": "https://youtu.be/me3zXIaFDCA?si=ijF0qXxBCR4eSer0",
+    "syrup": "Cetzine Syrup",
+    "cream": "Not Required",
+    "soap": "Medimix Herbal Soap"
+  },
+  "Headache": {
+    "scientific": "Paracetamol 500mg",
+    "ayurvedic": "Peppermint oil massage",
+    "home": "Drink ginger tea twice a day",
+    "doctor": "Dr. Priya (Neurologist)",
+    "video": "https://youtu.be/nFgxjutchUo?si=JtWpwJ-LUO9_PrZx",
+    "syrup": "Not Required",
+    "cream": "Volini Gel",
+    "soap": "Not Required"
+  },
+  "Sore Throat": {
+    "scientific": "Azithromycin 500mg",
+    "ayurvedic": "Licorice tea twice daily",
+    "home": "Saltwater gargle 3 times a day",
+    "doctor": "Dr. Hansajii Yogendra(ENT Specialist)",
+    "video": "https://youtu.be/onV7supPaPc?si=Okoyopux4MlWTLgS",
+    "syrup": "Alex Cough Syrup",
+    "cream": "Not Required",
+    "soap": "Dettol Antibacterial Soap"
+  },
+  "Runny Nose": {
+    "scientific": "Levocetirizine 5mg",
+    "ayurvedic": "Turmeric + Honey mixture",
+    "home": "Steam inhalation 10 mins daily",
+    "doctor": "Dr. Anil (Allergist)",
+    "video": "https://youtu.be/i4q4eIMPTVo?si=P_rXiSF452pDmSe7",
+    "syrup": "Relent Syrup",
+    "cream": "Not Required",
+    "soap": "Santoor Sandal Soap"
+  },
+  "Sneezing": {
+    "scientific": "Cetirizine 10mg",
+    "ayurvedic": "Tulsi + Pepper tea",
+    "home": "Avoid dust and cold drinks",
+    "doctor": "Dr. Anil (Allergist)",
+    "video": "https://youtu.be/i4q4eIMPTVo?si=P_rXiSF452pDmSe7",
+    "syrup": "Allercet Syrup",
+    "cream": "Not Required",
+    "soap": "Lifebuoy Total Soap"
+  },
+  "Fatigue": {
+    "scientific": "Becosules Capsules",
+    "ayurvedic": "Ashwagandha with milk",
+    "home": "Eat bananas and stay hydrated",
+    "doctor": "Dr. Ramesh (General Physician)",
+    "video": "https://youtu.be/6tybMiRK6pg?si=iRM0AhZSPFt5pWvy",
+    "syrup": "Revital Energy Syrup",
+    "cream": "Not Required",
+    "soap": "Dove Moisturizing Soap"
+  },
+  "Body Pain": {
+    "scientific": "Ibuprofen 400mg",
+    "ayurvedic": "Turmeric milk",
+    "home": "Warm water bath",
+    "doctor": "Dr. Sunita (General Physician)",
+    "video": "https://youtube.com/shorts/97AzNYUZDiY?si=h9Tu0xkoRv8XGXxL",
+    "syrup": "Not Required",
+    "cream": "Volini Gel",
+    "soap": "Not Required"
+  },
+  "Nausea": {
+    "scientific": "Ondansetron 4mg",
+    "ayurvedic": "Ginger decoction",
+    "home": "Sip lemon water",
+    "doctor": "Dr. Ganna Srinivas (Gastroenterologist)",
+    "video": "https://youtu.be/sr-4oEJCgHY?si=-Em_kLkIfUtHcomV",
+    "syrup": "Domstal Syrup",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Vomiting": {
+    "scientific": "Ondansetron 4mg",
+    "ayurvedic": "Jeera water",
+    "home": "Lemon juice with salt",
+    "doctor": "Dr.Summan Kumar (Gastroenterologist)",
+    "video": "https://youtube.com/shorts/oSFtOV8Y380?si=B5EBjWIOHqIr0S_z",
+    "syrup": "Domstal Syrup",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Diarrhea": {
+    "scientific": "Orsaline + Zinc",
+    "ayurvedic": "Pomegranate decoction",
+    "home": "Hydrate and eat khichdi",
+    "doctor": "Dr. Rajesh (Gastroenterologist)",
+    "video": "https://youtu.be/rW5MfhV96Q8?si=xvGmahUC44otRPRt",
+    "syrup": "ORS Solution",
+    "cream": "Not Required",
+    "soap": "Medimix Herbal Soap"
+  },
+  "Constipation": {
+    "scientific": "Lactulose Syrup",
+    "ayurvedic": "Isabgol with milk",
+    "home": "Drink warm water daily",
+    "doctor": "Dr. Vijay (Gastroenterologist)",
+    "video": "https://youtu.be/1aXDppi-3_M?si=5PUG7fcB5g5DgfCy",
+    "syrup": "Lactulose Syrup",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Abdominal Pain": {
+    "scientific": "Pantoprazole 40mg",
+    "ayurvedic": "Fennel seeds decoction",
+    "home": "Warm compress on stomach",
+    "doctor": "Dr.p Rajesh Kanna (Gastroenterologist)",
+    "video": "https://youtu.be/GIPAo-JakjM?si=GMw8KuIFqzGak8ea",
+    "syrup": "Not Required",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Skin Rashes": {
+    "scientific": "Candid Dusting Powder",
+    "ayurvedic": "Neem leaves paste",
+    "home": "Apply aloe vera gel twice daily",
+    "doctor": "Dr. Sindhuja (Dermatologist)",
+    "video": "https://youtube.com/shorts/dW1xFMTqBdI?si=mla3oHE7fL4PsQdw",
+    "syrup": "Atarax Syrup",
+    "cream": "Calamine Lotion",
+    "soap": "Himalaya Neem Soap"
+  },
+  "Itching": {
+    "scientific": "Cetrizine 10mg",
+    "ayurvedic": "Neem paste",
+    "home": "Apply aloe vera gel twice daily",
+    "doctor": "Dr. Mohith Sethi (Dermatologist)",
+    "video": "https://youtu.be/y5xpk9IbPOg?si=QqdTRAsgvTAZDeeY",
+    "syrup": "Cetrizine Syrup",
+    "cream": "Hydrocortisone Cream",
+    "soap": "Himalaya Neem Soap"
+  },
+  "Eczema": {
+    "scientific": "Hydrocortisone 1% Cream",
+    "ayurvedic": "Neem + Turmeric paste",
+    "home": "Cold compress twice a day",
+    "doctor": "Dr. Shalini K A (Dermatologist)",
+    "video": "https://youtube.com/shorts/42i0f5gB1OQ?si=etz89mGoXAYtzszo",
+    "syrup": "Atarax Syrup",
+    "cream": "Candid B Cream",
+    "soap": "Medimix Herbal Soap"
+  },
+  "Dry Skin": {
+    "scientific": "Moisturizing Cream",
+    "ayurvedic": "Coconut oil massage",
+    "home": "Drink 8 glasses of water daily",
+    "doctor": "Dr. Mohith Sethi (Dermatologist)",
+    "video": "https://youtu.be/y5xpk9IbPOg?si=QqdTRAsgvTAZDeeY",
+    "syrup": "Zincovit Syrup",
+    "cream": "Vaseline Intensive Care",
+    "soap": "Dove Moisturizing Soap"
+  },
+  "Red Patches": {
+    "scientific": "Hydrocortisone Cream",
+    "ayurvedic": "Aloe vera paste",
+    "home": "Keep area clean and dry",
+    "doctor": "Dr. Harish C (Dermatologist)",
+    "video": "https://youtu.be/xcjV6YXT3vs?si=zpL4ETNKZN3XcG7c",
+    "syrup": "Not Required",
+    "cream": "Calamine Lotion",
+    "soap": "Medimix Herbal Soap"
+  },
+  "Hives": {
+    "scientific": "Levocetirizine 5mg",
+    "ayurvedic": "Tulsi decoction",
+    "home": "Cold compress",
+    "doctor": "Dr. Mike (Dermatologist)",
+    "video": "https://youtu.be/V9Iv1900QQc?si=bbLB4YO6A0gE1r7C",
+    "syrup": "Levocetirizine Syrup",
+    "cream": "Calamine Cream",
+    "soap": "Himalaya Neem Soap"
+  },
+  "Eye Redness": {
+    "scientific": "Artificial Tears",
+    "ayurvedic": "Rose water rinse",
+    "home": "Cold compress on eyes",
+    "doctor": "Dr. Shaheena (Ophthalmologist)",
+    "video": "https://youtu.be/fw5aOJ6vS4I?si=pp9Uq2li7LYXJXED",
+    "syrup": "Not Required",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Watery Eyes": {
+    "scientific": "Antihistamine drops",
+    "ayurvedic": "Chamomile water rinse",
+    "home": "Avoid dust",
+    "doctor": "Dr. Shailaja (Ophthalmologist)",
+    "video": "https://youtube.com/shorts/B7F_RpiooKw?si=9KnPoE2uRi11k_oy",
+    "syrup": "Not Required",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Eye Discharge": {
+    "scientific": "Antibiotic eye drops",
+    "ayurvedic": "Triphala water rinse",
+    "home": "Clean eyelids gently",
+    "doctor": "Dr. Roopa Wong (Ophthalmologist)",
+    "video": "https://youtube.com/shorts/f1re-RollNo?si=05IukpeOCdQpvilw",
+    "syrup": "Not Required",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Ear Pain": {
+    "scientific": "Paracetamol + Ear drops",
+    "ayurvedic": "Garlic oil drops",
+    "home": "Warm compress",
+    "doctor": "Dr. Alokananda Das Dutta (ENT)",
+    "video": "https://youtu.be/hRd1LnM0Sj0?si=o0LvGVLUuV06LWq0",
+    "syrup": "Cefixime Syrup",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Ear Infection": {
+    "scientific": "Antibiotic ear drops",
+    "ayurvedic": "Garlic oil drops",
+    "home": "Keep ear dry",
+    "doctor": "Dr. Zainhasin (ENT)",
+    "video": "https://youtube.com/shorts/bNy5seNOoLI?si=KGRBaFSYf6e0V85e",
+    "syrup": "Cefixime Syrup",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Mouth Ulcers": {
+    "scientific": "Mouth gel (Maalox)",
+    "ayurvedic": "Licorice decoction rinse",
+    "home": "Saltwater rinse",
+    "doctor": "Dr. Sandeep Guptha (Dentist)",
+    "video": "https://youtu.be/WIUZSYNyqEU?si=swz3BEMBW-RAwcAn",
+    "syrup": "Not Required",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Bad Breath": {
+    "scientific": "Chlorhexidine mouthwash",
+    "ayurvedic": "Clove water rinse",
+    "home": "Brush teeth twice daily",
+    "doctor": "Dr. Bana Ball (Dentist)",
+    "video": "https://youtu.be/k91tGGFxjpE?si=RJNTCO3zQ5H2R6Tq",
+    "syrup": "Not Required",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Chapped Lips": {
+    "scientific": "Lip balm with Vitamin E",
+    "ayurvedic": "Honey + Ghee mixture",
+    "home": "Drink plenty of water",
+    "doctor": "Dr. Ankith Kumar Jain(Dermatologist)",
+    "video": "https://youtube.com/shorts/TmXBtPGXhnc?si=AvMHlor7qMRJ-mWT",
+    "syrup": "Not Required",
+    "cream": "Vaseline",
+    "soap": "Not Required"
+  },
+  "Breathing Difficulty": {
+    "scientific": "Salbutamol Inhaler",
+    "ayurvedic": "Tulsi + Honey decoction",
+    "home": "Sit upright and breathe slowly",
+    "doctor": "Dr. Shreya Dubey(Pulmonologist)",
+    "video": "https://youtu.be/ENRxmC4elVc?si=0QHunMCOMAPTML01",
+    "syrup": "Not Required",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Chest Congestion": {
+    "scientific": "Expectorant Syrup",
+    "ayurvedic": "Steam inhalation with eucalyptus",
+    "home": "Drink warm fluids",
+    "doctor": "Dr. Meenakshi (Pulmonologist)",
+    "video": "https://youtube.com/shorts/ztyiR5U7VB0?si=jQoIigrRNLetXay-",
+    "syrup": "Ascoril Syrup",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Allergic Reaction": {
+    "scientific": "Antihistamine 10mg",
+    "ayurvedic": "Tulsi decoction",
+    "home": "Avoid allergens",
+    "doctor": "Dr. John Ambulance (Allergist)",
+    "video":"https://youtu.be/yOTgmfA8jNk?si=N87QoEia-9cuPY1C",
+    "syrup": "Cetrizine Syrup",
+    "cream": "Calamine Lotion",
+    "soap": "Himalaya Neem Soap"
+  },
+  "Burning Urination": {
+    "scientific": "Ciprofloxacin 500mg",
+    "ayurvedic": "Cranberry juice",
+    "home": "Drink plenty of water",
+    "doctor": "Dr. Nanditha Das(Urologist)",
+    "video": "https://youtube.com/shorts/F8RbS5oNoGI?si=LwR7Oloa8_8keT43",
+    "syrup": "Urovit Syrup",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Frequent Urination": {
+    "scientific": "Tolterodine 2mg",
+    "ayurvedic": "Coriander water",
+    "home": "Reduce caffeine intake",
+    "doctor": "Dr. Vijay Yewale (Urologist)",
+    "video": "https://youtu.be/RxmHplLKZRQ?si=hcbc7uWrnzoRY4By",
+    "syrup": "Urovit Syrup",
+    "cream": "Not Required",
+    "soap": "Not Required"
+  },
+  "Jaundice": {
+    "scientific": "Lactulose 10ml",
+    "ayurvedic": "Turmeric milk",
+    "home": "Drink plenty of water and eat fruits",
+    "doctor": "Dr. Sayed Mujahid Husain (Hepatologist)",
+    "video": "https://youtu.be/cFaH9TibF8k?si=qur7MTNNqA3-Prp4",
+    "syrup": "Livogen Syrup",
+    "cream": "Not Required",
+    "soap": "Medimix Herbal Soap"
+  },
+  "Fungal Infection": {
+    "scientific": "Clotrimazole Cream",
+    "ayurvedic": "Neem paste",
+    "home": "Keep area dry and clean",
+    "doctor": "Dr. Sumithra Meena (Dermatologist)",
+    "video": "https://www.youtube.com/live/cKrSWtuHCR8?si=cgJniRgfV46RUBJX",
+    "syrup": "Not Required",
+    "cream": "Clotrimazole Cream",
+    "soap": "Himalaya Neem Soap"
+  },
+  "Insomnia": {
+    "scientific": "Melatonin 3mg",
+    "ayurvedic": "Ashwagandha decoction",
+    "home": "Avoid screens before bed",
+    "doctor": "Dr. Mandell (Sleep Specialist)",
+    "video": "https://youtube.com/shorts/j8b-8AsnNj0?si=vrLxjIwYYZ9O3Rv8",
+    "syrup": "Not Required",
+    "cream": "Not Required",
+    "soap": "Dove Soap"
+  }
+}
+
